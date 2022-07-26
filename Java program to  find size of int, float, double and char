@@ -1,0 +1,15 @@
+//assignment 2 quesstion number 
+import java.util.*;
+
+public class Application1 {
+   
+ public static void main(String[] args)
+ {
+     System.out.println("The size of int:"+(Integer.SIZE/8) +" bytes." );
+     System.out.println("The size of long:"+(Long.SIZE/8) +" bytes." );
+     System.out.println("The size of Char:"+(Character.SIZE/8) +" bytes.");
+     System.out.println("The size of Char:"+(Float.SIZE/8) +" bytes.");      
+     System.out.println("The size of Char:"+(Double.SIZE/8) +" bytes.");                            
+
+ }
+} 
