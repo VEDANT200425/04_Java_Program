@@ -1,0 +1,19 @@
+// Java Program to Multiply two Numbers
+import java.util.*;
+public class MultiplyTwoNumbers {
+    public static void main(String args[]) {
+        int no1, no2, multiply;
+        Scanner buf = new Scanner(System.in);
+     
+        System.out.print("Enter first number : ");
+        no1 = buf.nextInt();
+       
+        System.out.print("Enter second number : ");
+        no2 = buf.nextInt();
+        
+        multiply  = no1 * no2;
+        
+        System.out.print("Multiply of two numbers is : " + multiply);
+    }
+}
+
